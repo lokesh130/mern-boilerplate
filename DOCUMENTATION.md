@@ -72,7 +72,11 @@ run them concurrently.
 * now in index.js in root directory add some code to send "index.html" file in build folder when at first browser send the server get request. 
 * before deploing you need to add some scripts in package.json under root folder, to send server the instruction of which file to run first and using which engine.
 
-  
+# Using it for making any kind of website.
+* Install all the necessary modules first and then proceed further.
+* You just need **class diagram** of that system.
+* In **server** Add all the necessary entity in models folder and all corresponding actions containing file in router folder and include all the routes in index.js file in root directory. 
+* In **client** you just need to add some new components in component folder | make some changes in App.js component after adding new component.
    
     
     
